@@ -1,16 +1,34 @@
-# React + Vite
+# WealthNest QuickFind
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A frontend UX enhancement concept for WealthNest, built with React and Vite.
 
-Currently, two official plugins are available:
+## Problem
+Finding a particular financial asset category can require manually navigating a long list in the mobile investment flow I explored.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Proposed solution
+WealthNest QuickFind explores a more discoverable financial interface through:
 
-## React Compiler
+- Smart asset search and category filters
+- Financial coverage overview
+- Personalised discovery and saved progress
+- Consistent Investments, Insurance, Income Tax and Inheritance sections
+- Responsive layouts and accessibility-conscious interactions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
+- React
+- Vite
+- JavaScript
+- CSS
+- Lucide React
+- Browser local storage
 
-## Expanding the Oxlint configuration
+## Run locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+npm install
+npm install lucide-react
+npm run dev
+```
+
+## Scope and limitations
+This is a frontend prototype using illustrative data. It does not connect to WealthNest's production backend or process real financial information.
