@@ -1,0 +1,20 @@
+export const assets = [
+  { id: 1, name: "Mutual Funds", status: "Added" },
+  { id: 2, name: "EPF", status: "Not added" },
+  { id: 3, name: "Equities", status: "Not added" },
+  { id: 4, name: "ETFs", status: "Not added" },
+  { id: 5, name: "Gold and Silver", status: "Not added" },
+  { id: 6, name: "Loans", status: "Not added" },
+  { id: 7, name: "NPS", status: "Not added" },
+  { id: 8, name: "Properties", status: "Not added" },
+  { id: 9, name: "REITs and InvITs", status: "Not added" },
+  { id: 10, name: "Vehicles", status: "Not added" },
+  { id: 11, name: "AIFs", status: "Coming soon" },
+  { id: 12, name: "ESOPs and RSUs", status: "Coming soon" },
+  { id: 13, name: "PMS", status: "Coming soon" },
+  { id: 14, name: "Savings Schemes", status: "Coming soon" },
+  { id: 15, name: "Bank Accounts", status: "Not added" },
+  { id: 16, name: "Bonds", status: "Not added" },
+  { id: 17, name: "Credit Cards", status: "Not added" },
+  { id: 18, name: "Deposits", status: "Not added" }
+];
